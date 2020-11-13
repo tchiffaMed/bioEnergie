@@ -27,10 +27,12 @@
         .pad{padding: 50px;}
         .foot{ padding: 10px;background: linear-gradient(to right, #000000, #434343);}
         a, h1, h3,h4, h5, .kfo {font-family: 'grafier-blackdisplay';}
+        h4{color: #000000;}
         p, li, h6, button, input{font-family: 'grafier-regulardisplay';}
         .auteurs:hover{ background: linear-gradient(to right, #000000, #434343); color: white;}
         .fond, .subm{ background: linear-gradient(to right, #fe8c00, #f83600); }
         .fondu{ background: linear-gradient(to right, #000000, #434343); }
+        .pad1{background: linear-gradient(to left, #000000, #0f9b0f);}
         .pad2{background: linear-gradient(to right, #000000, #434343); }
        </style>
 </head>
@@ -163,11 +165,11 @@
           </div>
 
 <!--Pesentation-->
-<div class="pad1 container-fluid  text-center text-white bg-success p-3">
+<div class="pad1 container-fluid  text-center text-white  p-3">
     <div class="container px-auto">
       <div class="row">
         <div class="col">
-          <h1 id="creer">Creer</h1>
+          <h1 id="creer">Créer</h1>
           <p>Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor.
             Package managed installs don’t include documentation, but do include our build system
              and readme.</p>
@@ -183,12 +185,8 @@
      
       <div class="col-sm-6 mb-3">
        <div class="row">
-         <div class="col-12">
-          <h5>Nos activités</h5>
-          <p>Here’s an example of customizing the Bootstrap grid at the medium (md) 
-            breakpoint 
-            and above. We’ve increased the .col padding with .px-md-5
-          </p>
+         <div class="col-12 text-center">
+          <h3>Nos activités</h3>
          </div>
                 <div class="col-12">
                   <div class="col-12">
@@ -221,8 +219,8 @@
     <div class=" container-fluid text-center text-dark bg-light ">
       <div class="container">
         <div class="row p-4">
-          <div class="col">
-             <h4 class="text-primary text-center" id="apropos" >About Us</h4>
+          <div class="col a">
+             <h4 class=" text-center" id="apropos" >About Us</h4>
                 <p class=" text-center" >Notre société opère dans le secteur des énergies renouvelables et est composée d'une équipe hautement qualifiée pour répondre aux besoins énergétiques du monde rural en termes d'électricité et de chaleur à travers la valorisation des résidus agricoles disponibles localement. 
                   Nous contribuons ainsi à garantir à tous l'accès à des services énergétiques durables et modernes à moindre coût.</p>
              
@@ -235,10 +233,10 @@
                       <div class="accordion" id="livre">
 
                         <div class="card">
-                          <div class="card-header" id="inspiration">
+                          <div class="card-header" id="inspiration" style="background: #ff6f00;">
                               <h2 class="mb-0">
-                                <button class="btn btn-link  text-decoration-none" type="button" data-toggle="collapse" 
-                                data-target="#one" aria-expanded="true" aria-controls="one">
+                                <button class="btn btn-link  text-decoration-none text-white" type="button" data-toggle="collapse" 
+                                data-target="#one" aria-expanded="true" aria-controls="one" >
                                  <i class="fas fa-arrow-down"></i> Motivation de creation de SinGaz 
                                 </button>
                               </h2>
@@ -254,9 +252,9 @@
                           </div>
                               
                           <div class="card">
-                            <div class="card-header" id="savoir">
+                            <div class="card-header" id="savoir" style="background: #ff8f00;">
                                 <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed  text-decoration-none" type="button" data-toggle="collapse"
+                                    <button class="btn btn-link collapsed  text-decoration-none text-white" type="button" data-toggle="collapse"
                                      data-target="#two" aria-expanded="false">
                                      <i class="fas fa-arrow-down"></i> Proposition de valeur aux clients
                                     </button>
@@ -271,12 +269,12 @@
                           </div>
 
                           <div class="card" >
-                            <div class="card-header" id="opportunite">
+                            <div class="card-header" id="opportunite" style="background:#fbc02d";>
                               <h2 class="mb-0">
-                                <button class="btn btn-link collapsed text-decoration-none" type="button" data-toggle="collapse"
+                                <button class="btn btn-link collapsed text-decoration-none text-white" type="button" data-toggle="collapse"
                                  data-target="#three" aria-expanded="false" aria-controls="three">
                                  <i class="fas fa-arrow-down"></i> Nos forces
-                                </button>
+                                </button> 
                               </h2>
                             </div>
                             <div id="three" class="collapse" aria-labelledby="opportunite" data-parent="#livre">
@@ -302,7 +300,7 @@
 
         <div class="row ">
           <div class="col">
-             <h4 class="text-primary text-center" id="auteur" >L'équipe</h4>
+             <h4 class="text-center" id="auteur" >L'équipe</h4>
                 <p class=" text-center" >Bootstrap’s cards provide a flexible and extensible content container with 
                   multiple variants and options.</p>
 
@@ -392,7 +390,7 @@
 
         <div class="row">
           <div class="col-sm-8">
-             <h4 class="text-primary text-center" id="contact">Nous contacter</h4>
+             <h4 class="text-center" id="contact">Nous contacter</h4>
                 <p class=" text-center" >Please do not hesitate to contact us with any questions you may have regarding our product.</p>
                  
                     
